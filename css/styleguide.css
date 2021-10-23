@@ -1,0 +1,35 @@
+:root { 
+  --white: #ffffff;
+ 
+  --font-size-l: 26px;
+  --font-size-m: 21px;
+  --font-size-s: 16px;
+  --font-size-xl: 45px;
+  --font-size-xxl: 90px;
+ 
+  --font-family-baloo_2: "Baloo 2", Helvetica;
+  --font-family-coolvetica-regular: "Coolvetica-Regular", Helvetica;
+}
+.baloo2-bold-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.baloo2-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_2);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.coolvetica-regular-normal-white-45px {
+  color: var(--white);
+  font-family: var(--font-family-coolvetica-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
